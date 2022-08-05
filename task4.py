@@ -24,5 +24,16 @@ gods = { # a nested dictionary containing multiple
     }
 }
 
-# add, present, remove from each list, tuple and dictionary
-#
+#adding/removing/modifying a list
+jacks_kids.remove("Donna") # remove from a list
+jacks_kids.append("Shah Hazda Mohammed II") # add to end of a list
+jacks_kids[0] = "Jonathan Joestar"
+
+try: # try catch exception used, as you can't add or remove from a tuple, they are immutable
+    matts_kids.remove("Anantashesha the primordial consumer")
+except:
+    print("You can't kill the universe, kid!")
+
+# adding/removing/modifying a dictionary
+children("Sam's children").remove() # remove the key value
+# present list, tuple, dictionary

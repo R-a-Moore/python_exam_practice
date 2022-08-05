@@ -82,10 +82,12 @@ There are several types of data collections;
 
 - Lists `[]` mutable - can be modified/manipulated. (Think array in C#)
 - Tuples `()` immutable - cannot be modified by code. 
-- Dictionaries `{}` are mutable, but more importantly contain a `key` and `value` pair, the key being the index for the value. 
+- Dictionaries `{}` are mutable, but more importantly contain a `key` and `value` pair. The key being the index for the value. 
 
 
 Note that one of these collection types can contain another collection. If it contains a collection of its own type, it is considered a nested data collection, i.e., a dictionary containing one or multiple dictionaries is a nested dictionary.
 
 Also remember that any one of these arrays/collections can be mixed, containing multiple datas of differing types.
+
+When removing, adding or presenting using collections, remember that in python indexing starts at value 0.
 
