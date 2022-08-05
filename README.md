@@ -58,4 +58,34 @@ Operators in python (and other languages), operators are used to perform tasks p
 - `or` allowing for selection of another condition
 - `not` requiring negation of another condition
 
-### 
+### Comparison Operators
+
+- `==` equal to
+- `!=` not equal to
+- `>` greater than
+- `<` less than
+- `>=` greater than or equal to
+- `<=` less than or equal to
+
+### Assignment Operators
+
+- `=` now equals
+- `+=` plus equals (add to self, i.e., now equals itself plus the other)
+- `-=` minus equals(minus from self)
+- `*=` times equals (multiply to self)
+- `/=` divide equals
+- `%=` modulo equals (now equals itself and the remainder of its other)
+
+## Task 4 - Data Collections
+Data collections are examples of a data type which contains other data types. For example, a list may contain a number of booleans.
+There are several types of data collections;
+
+- Lists `[]` mutable - can be modified/manipulated. (Think array in C#)
+- Tuples `()` immutable - cannot be modified by code. 
+- Dictionaries `{}` are mutable, but more importantly contain a `key` and `value` pair, the key being the index for the value. 
+
+
+Note that one of these collection types can contain another collection. If it contains a collection of its own type, it is considered a nested data collection, i.e., a dictionary containing one or multiple dictionaries is a nested dictionary.
+
+Also remember that any one of these arrays/collections can be mixed, containing multiple datas of differing types.
+
